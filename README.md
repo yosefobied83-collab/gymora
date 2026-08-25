@@ -14,6 +14,9 @@
 - Dynamic session size: 45-minute sessions use 5 exercises, with longer sessions scaling up.
 - Exercise selection respects available equipment and training location.
 - Exercise swaps without rebuilding the entire plan.
+- Exercise guides: click an exercise to view technique cues and a video/guide when available.
+- Sequential Workout Player: complete one exercise at a time, log sets/reps/weight, then move to the next exercise until the session is finished.
+- Expanded lower-body and glute exercise library including Hip Thrusts, Romanian Deadlifts, Bulgarian Split Squats, Step-ups, Kickbacks, Hip Abduction, Goblet Squats, and Glute Bridges.
 - Sets, reps, weight, PRs, rest timer, XP, levels, streaks, and achievements.
 - Nutrition planner with an expanded food library and availability/preferences filters.
 - Supabase authentication and cloud sync with local-first fallback.
@@ -38,6 +41,11 @@ Examples:
 - **Leg focus + 3 days:** Legs A → Upper Body → Legs B.
 - **45-minute session:** 5 exercises.
 - **Home training:** only exercises compatible with the user’s available equipment are selected.
+- **Lower-body sessions:** include glute-focused movements, with stronger lower-body priority when the profile/focus calls for it.
+
+## Workout Experience
+
+When a workout starts, GYMORA now presents the session exercise-by-exercise rather than showing a dense form for the entire workout at once. The user can review technique, record the performed weight and repetitions for each set, mark sets as completed, and use Previous/Next navigation until the session is complete.
 
 ## Nutrition Planner
 
