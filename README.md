@@ -1,20 +1,21 @@
 # GYMORA 🏋️
 
-**GYMORA** is a bilingual fitness planning and workout-tracking web app that creates personalized training plans based on the user’s goal, training location, experience level, weekly schedule, available equipment, session duration, and muscle focus.
+**GYMORA** is a bilingual fitness planning and workout-tracking web app that creates personalized training plans based on the user’s goal, training location, experience level, weekly schedule, available equipment, session duration, muscle focus, and training profile.
 
-🌐 **Live Demo:** https://gymora-app-yosefobied83-4620s-projects.vercel.app
+🌐 **Live Demo:** https://gymora-video-preview.vercel.app
 
 ## Highlights
 
 - Arabic and English support with RTL/LTR layouts.
 - Personalized Home / Gym workout plans.
 - Goal-aware programming for muscle gain, fat loss, strength, and general fitness.
-- Muscle-focus programming for chest, back, legs, and upper body.
+- Training profile selection with exercise-priority differences for male/female plans while keeping programming balanced.
+- Muscle-focus programming for chest, back, legs, upper body, and glutes/lower body.
 - Recovery-aware weekly splits so the same priority area is not trained hard on consecutive days.
 - Dynamic session size: 45-minute sessions use 5 exercises, with longer sessions scaling up.
 - Exercise selection respects available equipment and training location.
 - Exercise swaps without rebuilding the entire plan.
-- Exercise guides: click an exercise to view technique cues and a video/guide when available.
+- Exercise guides for every exercise with an embedded technique video plus quick form cues.
 - Sequential Workout Player: complete one exercise at a time, log sets/reps/weight, then move to the next exercise until the session is finished.
 - Expanded lower-body and glute exercise library including Hip Thrusts, Romanian Deadlifts, Bulgarian Split Squats, Step-ups, Kickbacks, Hip Abduction, Goblet Squats, and Glute Bridges.
 - Sets, reps, weight, PRs, rest timer, XP, levels, streaks, and achievements.
@@ -45,7 +46,7 @@ Examples:
 
 ## Workout Experience
 
-When a workout starts, GYMORA now presents the session exercise-by-exercise rather than showing a dense form for the entire workout at once. The user can review technique, record the performed weight and repetitions for each set, mark sets as completed, and use Previous/Next navigation until the session is complete.
+When a workout starts, GYMORA presents the session exercise-by-exercise rather than showing a dense form for the entire workout at once. The user can review technique and an embedded exercise video, record the performed weight and repetitions for each set, and use Previous/Next navigation until the session is complete.
 
 ## Nutrition Planner
 
